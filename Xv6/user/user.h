@@ -23,6 +23,8 @@ char* sbrk(int);
 int sleep(int);
 
 int upttime(void);
+int mmap(void);
+int munmap(void);
 
 // ulib.c
 int stat(const char*, struct stat*);

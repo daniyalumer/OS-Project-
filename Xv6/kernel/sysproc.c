@@ -68,11 +68,26 @@ sys_sleep(void)
   return 0;
 }
 
+//My systemCalls
+//-----------------------------
 uint
 sys_upttime(void){
 	return ticks;
 }
 
+uint
+sys_mmap(void){
+    printf("mmap system call :)\n");
+    return 12;
+}
+
+uint
+sys_munmap(void){
+    printf("munmap() system call :)\n");
+    return 12;
+}
+
+//-----------------------------
 uint64
 sys_kill(void)
 {
