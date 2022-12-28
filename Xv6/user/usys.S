@@ -105,18 +105,8 @@ uptime:
  li a7, SYS_uptime
  ecall
  ret
-.global upttime
-upttime:
- li a7, SYS_upttime
- ecall
- ret
-.global mmap
-mmap:
- li a7, SYS_mmap
- ecall
- ret
-.global munmap
-munmap:
- li a7, SYS_munmap
+.global cow
+cow:
+ li a7, SYS_cow
  ecall
  ret

@@ -20,6 +20,4 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
-#define SYS_upttime  22
-#define SYS_mmap   23
-#define SYS_munmap   24
+#define SYS_cow  22

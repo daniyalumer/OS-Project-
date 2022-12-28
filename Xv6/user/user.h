@@ -22,9 +22,7 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 
-int upttime(void);
-int mmap(void);
-int munmap(void);
+int cow(void);
 
 // ulib.c
 int stat(const char*, struct stat*);

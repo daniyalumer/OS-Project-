@@ -70,20 +70,10 @@ sys_sleep(void)
 
 //My systemCalls
 //-----------------------------
-uint
-sys_upttime(void){
-	return ticks;
-}
 
 uint
-sys_mmap(void){
-    printf("mmap system call :)\n");
-    return 12;
-}
-
-uint
-sys_munmap(void){
-    printf("munmap() system call :)\n");
+sys_cow(void){
+    printf("cow() system call :)\n");
     return 12;
 }
 

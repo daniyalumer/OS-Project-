@@ -92,7 +92,6 @@ main(int argc, char *argv[])
     exit(0);
   }
   for(i=flag+1; i<argc; i++)
-    ls(argv[i],i);
-  cont=1;
+    ls(argv[i],flag);
   exit(0);
 }
